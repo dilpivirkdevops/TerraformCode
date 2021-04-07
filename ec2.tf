@@ -20,3 +20,4 @@ resource "aws_ssm_parameter" "cw_agent" {
   value       = file("cw_config_agent.json")
 }
 
+#this is just a code for testing
